@@ -8,6 +8,7 @@ import TeamSection from '@/components/TeamSection';
 import JoinSection from '@/components/JoinSection';
 
 export default function HomePage() {
+  console.log("version 1")
   return (
     <>
       <HeroSection />
