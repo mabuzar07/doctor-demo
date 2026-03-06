@@ -18,36 +18,36 @@ const FOOTER_COLS = [
   {
     heading: 'Solutions',
     links: [
-      { label: 'Services', href: '/services' },
-      { label: 'Rates', href: '/pricing' },
-      { label: 'Doctors', href: '/doctors' },
-      { label: 'Blog', href: '/blog' },
+      { label: 'Services', href: '/' },
+      { label: 'Rates', href: '/' },
+      { label: 'Doctors', href: '/' },
+      { label: 'Blog', href: '/' },
     ],
   },
   {
     heading: 'Company',
     links: [
       { label: 'About us', href: '/about' },
-      { label: 'Careers', href: '/careers' },
-      { label: 'Press', href: '/press' },
-      { label: 'Partners', href: '/partners' },
+      { label: 'Careers', href: '/' },
+      { label: 'Press', href: '/' },
+      { label: 'Partners', href: '/' },
     ],
   },
   {
     heading: 'Legal',
     links: [
-      { label: 'ToS', href: '/terms' },
-      { label: 'Privacy', href: '/privacy' },
-      { label: 'Cookies', href: '/cookies' },
-      { label: 'Disclaimer of liability', href: '/disclaimer' },
+      { label: 'ToS', href: '/' },
+      { label: 'Privacy', href: '/' },
+      { label: 'Cookies', href: '/' },
+      { label: 'Disclaimer of liability', href: '/' },
     ],
   },
   {
     heading: 'Contact',
     links: [
-      { label: 'Email', href: '/contact#email' },
-      { label: 'Phone', href: '/contact#phone' },
-      { label: 'Address', href: '/contact#address' },
+      { label: 'Email', href: '/' },
+      { label: 'Phone', href: '/' },
+      { label: 'Address', href: '/' },
     ],
   },
 ];

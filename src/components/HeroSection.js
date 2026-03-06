@@ -24,16 +24,11 @@ const badgePop = {
 export default function HeroSection() {
   return (
     <section className="hero-section">
-      <div className="hero-bg">
-        <Image
-          src={headerBg}
-          alt=""
-          fill
-          className="hero-bg-img"
-          priority
-          aria-hidden="true"
-        />
-      </div>
+      <div
+        className="hero-bg"
+        style={{ backgroundImage: `url(${typeof headerBg === 'string' ? headerBg : headerBg.src})` }}
+        aria-hidden="true"
+      />
 
       <div className="hero-content">
         <div className="row align-items-start g-4 g-lg-5">
@@ -65,9 +60,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="hero-description">
-              My Doctor App was created to make intelligent, accessible, and affordable
-              healthcare available to every South African household — regardless of
-              location or connectivity.
+             My Doctor App was created to make intelligent, <br /> accessible, and affordable healthcare available to every South african household — regardless of location or connectivity.
             </p>
           </motion.div>
 

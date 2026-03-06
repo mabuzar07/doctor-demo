@@ -24,7 +24,7 @@ export default function StorySection() {
           <div className="story-right">
             <div className="story-divider" />
             <p className="story-desc">
-              Founded in 2025, My Doctor RSA was born from a simple but urgent observation: millions of South African lack timely access to reliable medical guidance.
+              Founded in 2025, My Doctor RSA was born from a simple but urgent observation: millions of South african lack timely access to reliable medical guidance.
             </p>
             <p className="story-desc">
               Long distances to hospitals, limited internet connectivity, and healthcare infrastructure gaps leave many families without immediate support when symptoms appear. We believed technology could change that.

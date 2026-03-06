@@ -35,13 +35,13 @@ export default function JoinSection() {
                 Join Us in Transforming Healthcare Access Across the RSA
               </h2>
               <div className="join-buttons">
-                <a href="#" className="join-btn join-btn--outline">
+                <a href="/" className="join-btn join-btn--outline">
                   Get Started as a Patient
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </a>
-                <a href="#" className="join-btn join-btn--ghost">
+                <a href="/" className="join-btn join-btn--ghost">
                   Join as a Doctor
                   <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                     <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
